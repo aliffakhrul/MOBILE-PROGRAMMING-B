@@ -1,33 +1,60 @@
-**Nama : Dian Lestari Kurniawati**
-**NIM  : 230605110016**
+# 📘 PinjamRuang App
 
-# IbadahTracker App
+**Nama:** Alif Fakhrul Hakim  
+**NIM:** 230605110016  
 
-IbadahTracker App adalah aplikasi mobile yang dikembangkan menggunakan Flutter untuk membantu pengguna Muslim dalam memantau dan mencatat aktivitas ibadah harian mereka. Aplikasi ini dirancang dengan antarmuka yang bersih dan intuitif agar mudah digunakan.
+PinjamRuang App adalah aplikasi mobile berbasis **Flutter** yang dirancang untuk mempermudah proses peminjaman ruangan di lingkungan kampus. Aplikasi ini memiliki tampilan antarmuka yang sederhana, responsif, dan mudah digunakan oleh mahasiswa maupun dosen.
 
-## Tema dan Tujuan Aplikasi
+---
 
-Di tengah kesibukan sehari-hari, seringkali sulit untuk konsisten dalam memantau pelaksanaan ibadah wajib dan sunnah. Tujuan utama dari aplikasi ini adalah untuk menyediakan alat bantu digital yang praktis bagi pengguna untuk:
-- Melacak pelaksanaan sholat lima waktu.
-- Mencatat puasa yang dijalankan.
-- Menandai progres bacaan Al-Quran.
-- Memberikan rekapitulasi aktivitas ibadah untuk evaluasi diri.
+## 🎯 Tema dan Tujuan Aplikasi
 
-## Daftar Halaman dan Fungsinya
+Dalam kegiatan akademik, sering kali pengguna kesulitan mengetahui ruangan mana yang tersedia atau sudah dibooking.  
+PinjamRuang hadir sebagai solusi digital untuk:
 
-Aplikasi ini terdiri dari beberapa halaman utama:
+- Mempermudah proses peminjaman ruangan secara cepat dan transparan.  
+- Menampilkan status peminjaman ruangan (diajukan, ditolak, atau diterima).  
+- Menyediakan informasi detail tiap ruangan, seperti kapasitas, fasilitas, dan jadwal penggunaan.  
+- Meningkatkan efisiensi administrasi peminjaman ruang di kampus.
 
-1.  **Halaman Login (`login_page.dart`):** Halaman awal tempat pengguna masuk ke dalam aplikasi. Menggunakan email (sebagai nama pengguna) dan password sederhana.
-2.  **Halaman Utama/Menu (`main_menu.dart`):** Berfungsi sebagai dasbor utama setelah login. Menampilkan jadwal sholat harian, grid untuk melacak sholat lima waktu, serta menu navigasi ke fitur Al-Quran dan Puasa.
-3.  **Halaman Al-Quran (`quran_page.dart`):** Menampilkan daftar 114 surah dalam Al-Quran yang diambil dari API. Pengguna dapat mencari surah dan melihat detail ayat (teks Arab dan terjemahan Indonesia).
-4.  **Halaman Puasa (`puasa_page.dart`):** Berisi kalender interaktif yang memungkinkan pengguna untuk menandai hari-hari saat mereka berpuasa sunnah maupun wajib.
-5.  **Halaman Profil (`profile_page.dart`):** Menampilkan rekapitulasi data ibadah pengguna, seperti jumlah sholat yang dikerjakan, total hari puasa, dan jumlah surah yang telah dibaca. Pengguna juga dapat mengubah foto profil dan keluar dari aplikasi.
+---
 
-## Langkah Menjalankan Aplikasi
+## 📱 Daftar Halaman dan Fungsinya
+
+1. **Login Page (`login_page.dart`)**  
+   Halaman pertama aplikasi yang berfungsi untuk autentikasi pengguna.  
+   Pengguna dapat masuk menggunakan akun yang telah terdaftar.
+
+2. **Home Page (`home_page.dart`)**  
+   Halaman utama yang menampilkan informasi ringkas tentang jumlah ruangan yang tersedia, sedang digunakan, dan total ruangan.  
+   Terdapat juga tombol **“Tampilkan Semua”** untuk melihat daftar ruangan lengkap.
+
+3. **List Ruangan (`list_ruangan.dart`)**  
+   Berisi daftar semua ruangan yang dapat dipinjam.  
+   Setiap ruangan ditampilkan dalam bentuk **card** dengan status dan kapasitasnya.
+
+4. **Detail Ruangan (`detail_page.dart`)**  
+   Menampilkan informasi detail ruangan seperti nama, kapasitas, fasilitas, serta tombol **“Pinjam Ruangan”**.  
+   Terdapat juga ikon **Back berwarna putih** di bagian atas untuk kembali ke halaman sebelumnya.
+
+5. **Profil Page (`profile_page.dart`)**  
+   Menampilkan data pengguna dan histori peminjaman ruangan yang pernah dilakukan.  
+   Pengguna juga dapat keluar dari aplikasi melalui tombol **Logout**.
+
+---
+
+## 🧩 Perancangan Antarmuka
+
+Warna utama aplikasi ini adalah **biru**, karena biru identik dengan **Teknik Informatika** dan memberikan kesan profesional, familiar, serta nyaman untuk dilihat.  
+Desain dibuat dengan gaya **minimalis**, menggunakan ikon-ikon sederhana dari **Flutter Icons** agar tampilan tetap modern dan ringan.
+
+---
+
+## ⚙️Langkah Menjalankan Aplikasi
 
 1.  Pastikan Anda telah menginstal Flutter SDK di komputer Anda.
 2.  Clone repositori ini: `git clone [URL_GITHUB_ANDA]`
-3.  Pindah ke direktori proyek: `cd ibadahtracker_app`
+3.  Pindah ke direktori proyek: `cd uts_mobile_programming`
 4.  Jalankan perintah untuk mengunduh dependensi: `flutter pub get`
 5.  Hubungkan perangkat (emulator atau perangkat fisik).
 6.  Jalankan aplikasi dengan perintah: `flutter run`
