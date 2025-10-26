@@ -21,11 +21,11 @@ PinjamRuang hadir sebagai solusi digital untuk:
 
 ## 📱 Daftar Halaman dan Fungsinya
 
-1. **Login Page (`login_page.dart`)**  
+1. **Login Page (`login.dart`)**  
    Halaman pertama aplikasi yang berfungsi untuk autentikasi pengguna.  
    Pengguna dapat masuk menggunakan akun yang telah terdaftar.
 
-2. **Home Page (`home_page.dart`)**  
+2. **Home Page (`home_user.dart`)**  
    Halaman utama yang menampilkan informasi ringkas tentang jumlah ruangan yang tersedia, sedang digunakan, dan total ruangan.  
    Terdapat juga tombol **“Tampilkan Semua”** untuk melihat daftar ruangan lengkap.
 
@@ -33,11 +33,11 @@ PinjamRuang hadir sebagai solusi digital untuk:
    Berisi daftar semua ruangan yang dapat dipinjam.  
    Setiap ruangan ditampilkan dalam bentuk **card** dengan status dan kapasitasnya.
 
-4. **Detail Ruangan (`detail_page.dart`)**  
+4. **Detail Ruangan (`detail_ruangan.dart`)**  
    Menampilkan informasi detail ruangan seperti nama, kapasitas, fasilitas, serta tombol **“Pinjam Ruangan”**.  
    Terdapat juga ikon **Back berwarna putih** di bagian atas untuk kembali ke halaman sebelumnya.
 
-5. **Profil Page (`profile_page.dart`)**  
+5. **Profil Page (`profile_user.dart`)**  
    Menampilkan data pengguna dan histori peminjaman ruangan yang pernah dilakukan.  
    Pengguna juga dapat keluar dari aplikasi melalui tombol **Logout**.
 
