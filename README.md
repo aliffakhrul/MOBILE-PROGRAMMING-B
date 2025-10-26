@@ -88,5 +88,29 @@
       <td><a href="#">Modul 09</a></td>
       <td><a href="#">Laporan Praktikum 9</a></td>
     </tr>
+    <tr>
+      <td>10</td>
+      <td>08-10-2025</td>
+      <td>10</td>
+      <td>Desain GUI, Navigasi, Integrasi API JSON Serialization di Flutter</td>
+      <td><a href="#">Modul 10</a></td>
+      <td><a href="#">Laporan Praktikum 10</a></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>14-10-2025</td>
+      <td>11</td>
+      <td>Manajemen State dengan GetX</td>
+      <td><a href="#">Modul 11</a></td>
+      <td><a href="#">Laporan Praktikum 11</a></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>20-10-2025</td>
+      <td>12</td>
+      <td>Ujian Tengah Semester</td>
+      <td><a href="#https://drive.google.com/file/d/1bKiuTpoB9D8VC0x1dKlSwPrqQRLfKFPc/view?usp=sharing">Modul UTS</a></td>
+      <td><a href="#">Laporan UTS</a></td>
+    </tr>
   </tbody>
 </table>
