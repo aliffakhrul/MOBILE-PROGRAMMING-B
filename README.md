@@ -109,7 +109,7 @@
       <td>20-10-2025</td>
       <td>12</td>
       <td>Ujian Tengah Semester</td>
-      <td><a href="#https://drive.google.com/file/d/1bKiuTpoB9D8VC0x1dKlSwPrqQRLfKFPc/view?usp=sharing">Modul UTS</a></td>
+      <td><a href="https://drive.google.com/file/d/1bKiuTpoB9D8VC0x1dKlSwPrqQRLfKFPc/view?usp=sharing">Modul UTS</a></td>
       <td><a href="#">Laporan UTS</a></td>
     </tr>
   </tbody>
