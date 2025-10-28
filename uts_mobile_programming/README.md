@@ -3,6 +3,8 @@
 **Nama:** Alif Fakhrul Hakim  
 **NIM:** 230605110016  
 
+Laporan Project: https://drive.google.com/file/d/1bKiuTpoB9D8VC0x1dKlSwPrqQRLfKFPc/view?usp=sharing 
+
 PinjamRuang App adalah aplikasi mobile berbasis **Flutter** yang dirancang untuk mempermudah proses peminjaman ruangan di lingkungan kampus. Aplikasi ini memiliki tampilan antarmuka yang sederhana, responsif, dan mudah digunakan oleh mahasiswa maupun dosen.
 
 ---
