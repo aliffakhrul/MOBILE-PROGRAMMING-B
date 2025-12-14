@@ -2,6 +2,9 @@
 **Nama : ALIF FAKHRUL HAKIM**  
 **NIM : 240605110086**
 
+Berikut merupakan link untuk seluruh modul, uts, dan uas = https://github.com/aliffakhrul/MOBILE-PROGRAMMING-B
+(karena saya tidak mengambil mata kuliah prraktikum mobile, maka saya kumpulkan lewat sini)
+
 InteriorRoom Catalog App adalah aplikasi mobile berbasis **Flutter** yang digunakan untuk menampilkan daftar interior room atau produk dekorasi ruangan. Aplikasi ini memanfaatkan **FakeStoreAPI** sebagai sumber data publik dan menampilkan produk berdasarkan kategori, harga, gambar, serta deskripsi lengkap. Aplikasi ini dibuat dengan desain sederhana, navigasi intuitif, dan fitur pencarian untuk memudahkan pengguna menemukan kategori interior yang diinginkan.
 
 ---
